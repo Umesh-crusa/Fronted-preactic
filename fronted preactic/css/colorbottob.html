@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+        display: flex;
+        margin-top: 650px;
+        align-items: center;
+        justify-content: center;
+       }
+       .color{
+        display: table-cell;
+        width: 50px;
+        height: 50px;
+        margin: 2px;
+        padding: 2px;   
+        cursor: pointer;
+        border: 2px sloid #faf8f8;
+       }
+        .clr1{
+            background-color: red;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="color(this)" class="color clr1">red</button>
+    <script>
+        function color(z){
+            var a=getComputedStyle(z);
+            var b=a.backgroundColor;
+            document.getElementsByTagName("body")[0].style.backgroundColor=b;
+        }
+    </script>
+</body>
+</html>

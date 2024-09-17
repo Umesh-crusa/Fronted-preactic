@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(assets/images/netflix\ baner.jpg );
+    background-position: center center;
+    background-size: no-repeat;
+    height: 80vh;
+    position: relative;
+
+}
+.main img{
+    font-weight: bold;
+    height: 25vh;
+    width: 15vw;
+}
+.main .box{
+    height: 80vh;
+    width: 100%;
+    opacity: 0.55;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+nav{
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 62px;
+}
+nav img{
+    color: rgb(250, 2, 2);
+    width: 134px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+   
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    margin: 150px;
+   font-size: 15px;
+   font-style: bold;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+    color: white;
+    flex-wrap: wrap;
+    position: relative;
+    font-weight: 900;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    padding: 3px 8px;
+    font-weight: bold;
+    border-radius:4px;
+    color: white;
+    border: 1px solid white;
+    background-color: rgba(211, 211, 211, 0.342);
+
+}
+.btn-red{
+   background-color: red;
+   color: white;
+   padding: 3px 24px;
+   font-size: 20px;
+   border-radius: 4px;
+}
+.btn-red-sm{
+background-color:red;
+color: white;
+
+}
+.main input{
+    margin: 23px;
+    padding: 3px 24px;
+    border: 2px solis rgba(252, 251, 251, 0.157);
+    background-color: rgb(23,23,23,0.2);
+   font-size: 20px;
+   border-radius: 4px;
+
+}  
+.first{
+display: flex;
+justify-content: center;
+max-width: 70vw;
+margin: auto;
+color: white;
+align-items: center;
+}
+.image{
+    position: relative;
+    width: 37vw;
+}
+.image img{
+ width: 37vw;
+position: relative;
+z-index: 10;
+}
+.image video{
+    position: absolute;
+    top: 51px;;
+    right:0;
+}
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+section.first > div :first-child{
+    font-size: 48px;
+    font-weight: bolder;
+}
+.first > div :nth-child(2){
+    font-size:30px;
+    
+}
+.sepration{
+    height: 4px;
+    background-color: rgba(75, 65, 65, 0.734);
+}

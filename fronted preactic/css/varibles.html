@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varibals</title>
+    <style>
+        :root{
+            --color:blue;
+            --seccolor:rgb(136, 152, 240);
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .nav{
+            background-color:var(--color);
+        }
+        ul{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+            padding: 34px;
+        }
+        ul li:first-child{
+            --color:red;
+            background-color: var(--color);
+        }
+   div:first-child{
+    background-color: var(--color);
+    border: 2px solid blueviolet;
+   }
+   .contanar{
+    background-color: var(--seccolor);
+    
+   }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contacts</li>
+        </ul>
+    </div>
+    <div class="contanar">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, aspernatur perspiciatis hic delectus quae tempore corporis vero accusantium a et eum repudiandae ratione sunt autem esse perferendis expedita modi, non dolorem molestias molestiae! Dicta obcaecati ab quod dolore accusamus accusantium! Enim omnis rem consectetur rerum.
+    </div>
+</body>
+</html>
